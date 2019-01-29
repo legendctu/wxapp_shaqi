@@ -1,4 +1,7 @@
 // pages/infoPage/3.js
+import regeneratorRuntime from '../../js/lib/runtime'
+import Util from '../../js/util'
+
 Page({
 
   /**
@@ -28,23 +31,8 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-    this.scrollOpenAni = wx.createAnimation({
-     duration: 6000, 
-     timingFunction: 'ease-out'
-    })
-
-    let query = wx.createSelectorQuery(),
-        scrollHeight = 0
-    query.select('#bodyContainer').boundingClientRect()
-    query.exec((rect) => {
-        console.log(rect[0].height)
-        scrollHeight = rect[0].height
-        this.scrollOpenAni.height(scrollHeight).step()
-        // this.setData({
-        //  scrollOpenAni: animation.export()
-        // })
-    })
+  async onReady() {
+    this.scrollOpenAni = await Util.scrollOpenAni('#bodyContainer')
   },
 
   /**
