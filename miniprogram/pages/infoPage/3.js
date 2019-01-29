@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
+    scrollOpenAni: ''
+  },
 
+  /*
+    @func onStartScrollOpen
+    @desc 点击开始滚动动画
+  */
+  onStartScrollOpen() {
+    this.setData({
+      scrollOpenAni: this.scrollOpenAni.export()
+    })
   },
 
   /**
@@ -19,7 +29,22 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    this.scrollOpenAni = wx.createAnimation({
+     duration: 6000, 
+     timingFunction: 'ease-out'
+    })
 
+    let query = wx.createSelectorQuery(),
+        scrollHeight = 0
+    query.select('#bodyContainer').boundingClientRect()
+    query.exec((rect) => {
+        console.log(rect[0].height)
+        scrollHeight = rect[0].height
+        this.scrollOpenAni.height(scrollHeight).step()
+        // this.setData({
+        //  scrollOpenAni: animation.export()
+        // })
+    })
   },
 
   /**
