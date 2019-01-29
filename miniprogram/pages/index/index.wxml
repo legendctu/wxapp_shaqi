@@ -1,0 +1,86 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="uploader">
+    <navigator url="../infoPage/1" open-type="navigate" class="uploader-text">
+      <text>1. 前言部分</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/2" open-type="navigate" class="uploader-text">
+      <text>2. 沙耆简介</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/3" open-type="navigate" class="uploader-text">
+      <text>3. 沙耆生平</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/4_1" open-type="navigate" class="uploader-text">
+      <text>4.1. 藜斋印象1</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/4_2" open-type="navigate" class="uploader-text">
+      <text>4.2. 藜斋印象2</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/4_3" open-type="navigate" class="uploader-text">
+      <text>4.3. 藜斋印象3</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/5" open-type="navigate" class="uploader-text">
+      <text>5. 志存高远</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/6" open-type="navigate" class="uploader-text">
+      <text>6. 金质奖章</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/7" open-type="navigate" class="uploader-text">
+      <text>7. 蛰居山村</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/8" open-type="navigate" class="uploader-text">
+      <text>8. 赢得盛名</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/9" open-type="navigate" class="uploader-text">
+      <text>9. 钱湖日落</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/10" open-type="navigate" class="uploader-text">
+      <text>10. 沙耆研究</text>
+    </navigator>
+  </view>
+
+  <view class="uploader">
+    <navigator url="../infoPage/11" open-type="navigate" class="uploader-text">
+      <text>11. 作品</text>
+    </navigator>
+  </view>
+
+
+
+
+
+</view>

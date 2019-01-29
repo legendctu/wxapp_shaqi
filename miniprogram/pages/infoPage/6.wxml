@@ -1,0 +1,33 @@
+<!--pages/infoPage/6.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header6.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="txt-in line-height">旅欧十年，沙耆作品中留下了对表现主义、野兽派等西方近现代艺术流派鲜明而独特的印记。他的作品，曾与毕加索等西方艺术大师共同展出，也曾举办多次个人展览，成为欧洲一流画家。</view>
+      <view class="txt-in line-height">在比利时皇家美术学院学习期间，沙耆得到了巴斯俭院长的亲手栽培。</view>
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+      <view class="txt-in line-height">巴斯俭院长曾是吴作人先生的老师，是弗拉芒画派的继承人。沙耆从他那里学到了使素描和色彩结合得很好的造型手段，他的作品明暗层次微妙，色彩透明清澈。</view>
+      <view class="txt-in line-height">1939 年，沙耆从学院毕业，成绩名列前茅，油画、素描、雕塑等均获第一名，并获得“优秀美术金质奖章”，授奖典礼在比利时国家美术宫举行，由比利时布鲁塞尔市市长马格斯亲自颁奖，引起比利时美术界的轰动。</view>
+      <view class="txt-in line-height">沙耆毕业时正值第二次世界大战爆发，交通阻梗，无法回国，只能继续留在比利时从事创作。其间，他与毕加索等著名的西方画家结为契友。</view>
+      <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
+      <view class="txt-in line-height">1940年春，沙耆27岁，此时，日寇已吞并大半个中国，法西斯的铁蹄蹂躏欧洲大地。就在比利时沦陷之前，沙耆和毕加索等著名画家一起创作精品，参加了当时的“联合百年纪念馆联展”，沙耆以饱满的爱国热枕，绘制了孙中山画像参加展览，并以孙中山先生遗嘱“联合世界上平等待我之民族共同奋斗”为题，受到旅比侨胞的高度赞扬。</view>　
+      <view class="txt-in line-height">1942年，沙耆连续三次举办个人画展。第一次在比利时建国50周年之际，在博物馆内举办个展。第二次在比利时文艺复兴画廊举办画展。第三次在佩底特美术馆举办个人画展，这也是沙耆记忆最深、最辉煌的一次画展。他的作品《吹笛女》被比利时皇太后伊丽莎白收藏，此事也被当时传为佳话而使沙耆声名鹊起，成为比利时家喻户晓的中国青年画家。</view>
+      <view class="img3-con"><image src="{{img3}}" class="img3"></image></view>
+      <view class="txt-in line-height">这年8月，沙耆在沙布隆圣母教堂第一次出现精神症状，被送往根特市圣约瑟医院进行医治。</view>
+      <view class="txt-in line-height">沙耆之所以发病，有早年健康的因素。小时候他发过癫痫。而且性格内向，主观固执。19岁被捕入狱对他的精神打击很大，在他以后的日记中一直对此耿耿于怀。在比利时皇家美术学院毕业后有国难回，思念亲人，由此带来的一系列矛盾冲突和经济困窘等精神压力长期得不得舒缓，是他发病的主要原因。</view>
+      <view class="txt-in line-height">住院一个月之后病情好转，沙耆继续他的绘画，又接连参加了各地的多次绘画展览。</view>
+      <view class="txt-in line-height">1945年2月，比利时美术学院院长特卡尼主办盛大展览会，主要展品有巴黎佛美艺术馆所藏比利时名家以及近代欧洲或侨居欧洲的第一流画家的作品，沙耆作品也应邀参展。</view>
+      <view class="txt-in line-height">同年10月，沙耆在佩底特美术馆举办在比利时的最后一次个人画展，展览大获成功，好评如潮。当时，世界反法西斯战争和中国抗日战争均已取得胜利，沙耆精心绘制的油画作品《雄狮》，以旅比华侨的名义献赠祖国。当时的《布鲁塞尔晚报》报道：“此画足增中国光荣，在此展出，尤足体现中比友谊。” </view>
+      <view class="img4-con"><image src="{{img4}}" class="img4"></image></view>
+
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

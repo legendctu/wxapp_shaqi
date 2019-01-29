@@ -1,0 +1,17 @@
+<!--pages/infoPage/11.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header11.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="img1-con pb-50"><image src="{{img1}}" class="img1"></image></view>
+
+    </view>
+  </view>
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

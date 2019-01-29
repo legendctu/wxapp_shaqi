@@ -1,0 +1,23 @@
+/* pages/infoPage/2.wxss */
+
+@import "bgimg.wxss";
+
+
+.header{
+  height: 347rpx;
+}
+.header image{
+  height: 347rpx;
+  width: 750rpx;
+}
+
+.img1-con{
+  height:481rpx;
+  margin:50rpx 0 20rpx 0;
+}
+.img1{
+  width:559rpx;
+  height:481rpx;
+  margin:0 auto;
+  display:block;
+}

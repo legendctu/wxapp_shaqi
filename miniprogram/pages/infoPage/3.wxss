@@ -1,0 +1,13 @@
+/* pages/infoPage/3.wxss */
+
+@import "bgimg.wxss";
+
+
+.header{
+  height: 347rpx;
+}
+.header image{
+  height: 347rpx;
+  width: 750rpx;
+}
+

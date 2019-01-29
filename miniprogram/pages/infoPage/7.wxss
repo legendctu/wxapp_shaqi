@@ -1,0 +1,67 @@
+/* pages/infoPage/7.wxss */
+
+@import "bgimg.wxss";
+
+
+.header{
+  height: 320rpx;
+}
+.header image{
+  height: 320rpx;
+  width: 750rpx;
+}
+
+.img1-con{
+  height:555rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img1{
+  width:385rpx;
+  height:555rpx;
+  margin:0 auto;
+  display:block;
+}
+
+.img2-con{
+  height:482rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img2{
+  width:362rpx;
+  height:482rpx;
+  margin:0 auto;
+  display:block;
+}
+
+.img3-con{
+  height:446rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img3{
+  width:570rpx;
+  height:446rpx;
+  margin:0 auto;
+  display:block;
+}
+
+.img4-con{
+  height:252rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img4{
+  width:571rpx;
+  height:252rpx;
+  margin:0 auto;
+  display:block;
+}
+
+.img5-con{
+  height:1706rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img5{
+  width:580rpx;
+  height:1706rpx;
+  margin:0 auto;
+  display:block;
+}

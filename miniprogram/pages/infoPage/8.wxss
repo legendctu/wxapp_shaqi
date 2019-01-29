@@ -1,0 +1,45 @@
+/* pages/infoPage/8.wxss */
+
+@import "bgimg.wxss";
+
+
+.header{
+  height: 320rpx;
+}
+.header image{
+  height: 320rpx;
+  width: 750rpx;
+}
+
+.img1-con{
+  height:245rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img1{
+  width:570rpx;
+  height:245rpx;
+  margin:0 auto;
+  display:block;
+}
+
+.img2-con{
+  height:354rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img2{
+  width:570rpx;
+  height:354rpx;
+  margin:0 auto;
+  display:block;
+}
+
+.img3-con{
+  height:990rpx;
+  margin:30rpx 0 20rpx 0;
+}
+.img3{
+  width:570rpx;
+  height:990rpx;
+  margin:0 auto;
+  display:block;
+}

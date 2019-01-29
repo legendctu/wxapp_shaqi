@@ -1,0 +1,39 @@
+<!--pages/infoPage/9.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header9.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="txt-in line-height">30多年前的东钱湖韩岭村，一个老人独自坐在钱湖清晨的漫天霞光里，一笔一笔地勾勒这里的天光云影、一草一木。他是村里公认的“怪人”，却少有人知道，他就是后来被誉为“中国梵高”的沙耆。</view>
+      <view class="txt-in line-height">1982年2月，在儿子沙天行与沙孟海等亲属的安排下，沙耆由沙村移居东钱湖韩岭，到学生余毅家暂住。生活费、寄养费由儿子沙天行按月支付。</view>
+      <view class="txt-in line-height">余毅是沙耆1981年收的唯一的一位学生。沙耆在余毅家住了将近16年，在这个家里，沙耆一边教余毅学画，一边在余家的悉心照料下生活。</view>
+      <view class="txt-in line-height">在韩岭，沙耆找到了内心久违的平静。对这个古色古香、有着千年历史的村庄情有独钟。在他眼里，韩岭处处是景，处处都有他创作的题材，即使是光秃秃的岩石、抑或是一片枯燥的空地，他都能用色彩去丰富画面。这个时期，沙耆的生活状态很不错，心情舒畅，他的创作也进入一个崭新的高峰期。</view>
+      <view class="txt-in line-height">晴天，师徒俩就相约到外面写生；下雨，就在家里画静物。那时，当地的人们对绘画并不太了解，加之对沙耆的精神病有所顾虑，没有人愿意给他当模特，徒弟就偶尔客串下模特。</view>
+      <view class="txt-in line-height">在其后的十多年里，单东钱湖风光，沙耆就画了上百幅作品，韩岭老街、象鼻山、盛宁公路、小普陀、东钱湖的日出日落、岸边的亭子等，无不出现在他的画作中。</view>
+      <view class="txt-in line-height">这期间，经沙孟海等亲属及儿子沙天行安排，沙耆先后前往江浙及东北名胜风景区游览写生，创作了大量的人物画和静物画。</view>
+      <view class="txt-in line-height">其中，时间较长的有3次。</view>
+      <view class="txt-in line-height">一次是1983年7月底去莫干山。在莫干山一住就是5个月，创作了30多幅油画精品。</view>
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+      <view class="txt-in line-height">另一次是1984年5月底，去台州天台山国清寺住了4个月，也画了30多幅油画。10月回到韩岭后，又应鄞县县政府办公室安排，到天童国家森林公园作画数月。</view>
+      <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
+      <view class="txt-in line-height">走得最远的一次，是1988年由嘉兴民丰造纸厂厂长杨振林安排，到吉林长白上观光写生。</view>
+      <view class="txt-in line-height">上世纪80年代中期到90年代中期，沙耆完成了自己风格上的个性转型。创作了千百幅气势恢宏的画作，专家评价他这一时期的创作“集印象派、野兽派、表现主义和抽象主义之大成”。这个被世人遗忘的“疯子”，再次用画笔惊艳了世界，无声地奠定了自己在中国油画史上不可动摇的大师地位。</view>
+      <view class="txt-in line-height">沙耆根本想不到身后的辉煌和世人给予自己的各种荣誉和高度评价。他很自信、自尊，希望得到别人尊敬。尽管一壶酒、一包烟可以换他的一张画，叫他一声“省主席”也会让他高兴上一阵子。他坚信自己的画以后会很值钱，不允许别人轻易送人，但他绝对不知道他的画会被拍卖市场拍到数十甚至几百万元。如果他知道他的画有如此的金贵，他肯定会很开心，但他也不会有痛苦和抱怨，因为他是个远离名利场的人，甚至连人民币的票面都不认识。</view>
+      <view class="img3-con"><image src="{{img3}}" class="img3"></image></view>
+      <view class="txt-in line-height">1997年，这个痴迷画画的老人因患中风被儿子沙天行接去上海治疗，自此，他告别生活了50年的家乡，放下拿了一辈子的画笔。</view>
+      <view class="txt-in line-height">2005年，沙耆先生在上海田林医院病逝。</view>
+      <view class="txt-in line-height">2006年 5月29日上午10时，一代油画大师沙耆先生纪念像揭幕暨骨灰安葬仪式在上海福寿园举行。</view>
+      <view class="txt-in line-height">2014年，在他的家乡宁波美术馆，举办了纪念沙耆先生诞辰100周年系列活动，沙耆作品展览、《百年沙耆作品集》、沙耆先生纪念文集《天纵神笔》等出版。</view>
+      <view class="img4-con"><image src="{{img4}}" class="img4"></image></view>
+
+
+    </view>
+  </view>
+  
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+<!--pages/infoPage/8.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header8.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="txt-in line-height">1983年，沙耆的命运又一次迎来了转折，他的画展在杭州、上海和北京举行。沉寂了三十多年之后，沙耆重新回到了公众的视野中。</view>
+      <view class="txt-in line-height">沙耆从海外带来的几大箱画作，当时寄存在沙孟海家，1964年，沙孟海整理出70多件油画，和徐悲鸿送给沙耆的《双猫图》，以沙耆母亲的名义捐赠给浙江省文管会，后转藏浙江省博物馆。</view>
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+      <view class="txt-in line-height">1983年5月18日，由浙江省博物馆、浙江美院、中国美协浙江分会、浙江文化会堂联合举办的《沙耆画展》在浙江文化会堂拉开帷幕。这是沙耆在国内的第一次个人画展，吴作人先生和沙孟海先生均为画展题了字，美术界人士纷纷前来观看，中国美术馆在画展结束后收藏了《自画像》等3幅作品。</view>
+      <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
+      <view class="txt-in line-height">7月7日，《沙耆画展》应上海油画雕塑创作室的邀请，赴上海展出。吴作人为画展题名，刘海粟送来花篮祝贺，《解放日报》、《文汇报》、《新民晚报》等均有长篇报导和评论。9月27日，《沙耆画展》应中国美术家协会和首都博物馆的邀请，赴北京展出，徐悲鸿夫人廖静文参观画展。</view>
+      <view class="txt-in line-height">之后，沙耆油画艺术研讨会在上海、北京举行。《沙耆70年作品回顾展》在中国美术馆、上海美术馆、台北历史博物馆展出。《生命之光——沙耆九十华诞艺术回顾展》在杭州西湖美术馆展出。</view>
+      <view class="img3-con pb-50"><image src="{{img3}}" class="img3"></image></view>
+
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

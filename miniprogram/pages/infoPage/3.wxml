@@ -1,0 +1,62 @@
+<!--pages/infoPage/3.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header3.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container pb-50">
+      <view class="txt-in line-height">1914年3月3日，出生于浙江省鄞县塘溪镇沙村。取名引年，又名贤菖，字吉留</view>
+      <view class="txt-in line-height">1920年，入本村饲堂读私塾，师从祥元先生。   </view>
+      <view class="txt-in line-height">1925年， 随父至上海，求读于宁波同乡会小学。 </view>
+      <view class="txt-in line-height">1926年，因病休学返乡。</view>
+      <view class="txt-in line-height">1927年，父亲将旧屋翻新，沙孟海题名《藜斋》。 </view>
+      <view class="txt-in line-height">1929年，随家迁居杭州。时沙孟海任职省政府，送沙耆入中学，后又介绍沙耆进上海昌明艺术专科学校。 </view>
+      <view class="txt-in line-height">1931年，“九.一八”事变后，沙耆随上海进步学生队伍赴南京请愿，参加示威游行。</view>
+      <view class="txt-in line-height">1932年，与沙孟海五弟沙季同就读于上海美术专科学校。是年六月沙耆因政冶原因被逮捕，并判刑一年。</view>
+      <view class="txt-in line-height">1933年，托病保释出狱后，转入杭州西湖艺专求学。 </view>
+      <view class="txt-in line-height">1934年，应沙孟海之邀赴南京，沙孟海为其取艺名耆，推荐从徐悲鸿学画，被接纳为中央大学艺术科旁听生。 </view>
+      <view class="txt-in line-height">1936年4月，在杭州结婚。加入“中国美术会”，会员证号为“第61号”。 12月由徐悲鸿个绍，自费前往比利时国立皇家艺术学院留学。 </view>
+      <view class="txt-in line-height">1937年2月，在比京布鲁塞尔设籍，并入学比利时国立皇家艺术学院，师从该院院长巴斯蒂昂（A.Bstien）教授。5月，儿子出生，取名天行。</view>
+      <view class="txt-in line-height">1938年，继续在皇家艺术学院学习，并在巴黎朱丽安美术学院（Academie Julian de Paris）研究。 </view>
+      <view class="txt-in line-height">1939年7月，从皇家美院毕业，其油画、雕塑、素描皆获首奖，并获得“优秀美术金质奖章”。 </view>
+      <view class="txt-in line-height">1940年春，与毕加索等西欧名家一起参加“建国百周年纪念馆（Atomium）联展”。6月，在杜松道画廊（Galerie de la Toison d'Or）与匈亚利画家德立克联展。其后多次在>佩底特（Petite Galerie）美术馆等地举办个人画展。 </view>
+      <view class="txt-in line-height">1941年1月，在毕底格力地（Peteti Galerie）美术馆举办个展。4月，参加列日市“欧洲艺术中心”（Ars-Europae）第三届联展。 </view>
+      <view class="txt-in line-height">1942年1月，在建国五十周年博物馆（Musee Cinquantennaire）举办画展。1月底，在文艺复兴画廊（Galerie La Renaissance）办画展。3月，又在毕底格力地举办个展，作
+      品《吹笛女》被王太后伊利莎白收藏。</view> 
+      <view class="txt-in line-height">1943年1月，在杜松道画廊（Galerie de la Toison d'Or）办个展。是年父亲在家乡病故。</view>
+      <view class="txt-in line-height">1944年9月，在摄政画廊（Galerie Le Regent）办个展。</view>
+      <view class="txt-in line-height">1945年2月，参加由比国美术院院长特卡尼（Decat）主办的一次盛大展览，展品中有巴黎罗佛美术馆所藏己故比国大画家及日本旅欧近代著名画家等作品。5月，在杜松道画>廊办个展。10月10日，在毕底格力地美术馆举办个展。所绘《雄狮》以旅比侨民名义献赠祖国。年底，赴英、荷等国旅行作画。</view> 
+      <view class="txt-in line-height">1946年10月，因病回国。</view>
+      <view class="txt-in line-height">1947年，定居鄞县沙村老家，由其母照料养病。是年初，儿子在党组织安排下，由山东解放区被送到沙村，父子团聚。</view>
+      <view class="txt-in line-height">1949年，家乡解放。12月，与妻子协议离婚。</view>
+      <view class="txt-in line-height">1952年，在周恩来总理关心下，由中央统战部每月拨给生活津贴。 </view>
+      <view class="txt-in line-height">1954年，赴杭治病。 </view>
+      <view class="txt-in line-height">1960年，沙孟海先生从存藏在其家的和沙耆母亲存藏沙村亲友家中的沙耆画中，选择百余幅画，以沙耆母亲的名义捐赠给淅江省文管会，转藏于省博物馆。 </view>
+      <view class="txt-in line-height">1964年，赴南京冶病。 其时母亲因年事己髙，由其大姐夫童全根一家接到童村照料。</view>
+      <view class="txt-in line-height">1967年，母亲去世。 </view>
+      <view class="txt-in line-height">1969年，由童村回到沙村故居，由沙村大队安排近邻沙良洪一家照料其生活。文革中，被扣上“资产阶级反动学术权威”的帽子。 </view>
+      <view class="txt-in line-height">1980年，沙孟海提出为沙耆筹办画展，得到中央美术学院、淅江美术学院、淅江省博物馆、鄞县文化局的支持。</view>
+      <view class="txt-in line-height">1982年，为筹办画展，应浙江省博物馆邀请赴杭州参与修画直到画展开幕。 </view>
+      <view class="txt-in line-height">1983年5月18日，由浙江省博物馆、浙江美术学院和中国美术家协会淅江分会共同主办的《沙耆画展》在杭州举行。6月，被聘为浙江省文史研究馆馆员。7月7日，《沙耆画展
+      》赴上海展出。9月27日，《沙耆画展》赴京展出。 </view>
+      <view class="txt-in line-height">1984年，被聘为上海市文史研究馆馆员。为有利其养病和艺术创作，移居至东钱湖韩岭其学生余毅家。</view>
+      <view class="txt-in line-height">1985年，由学生陪同由学生陪同，应邀去莫干山、天台山，天童寺、国清寺等风景名胜区休养游览，其间创作了不少油画。</view>
+      <view class="txt-in line-height">1988年，应邀去吉林游览作画。</view>
+      <view class="txt-in line-height">1989年，继续在鄞县韩岭学生家养病。由于年事渐高，较少出门，但手中画笔从不停息，画了大量人物、静物和风景画。</view>
+      <view class="txt-in line-height">1997年，由于脑梗阻，被儿子接往上海住院冶疗，从此放下了手中画笔。 </view>
+      <view class="txt-in line-height">1998年，由中国油画学会、中国美术学院研究学部和台湾卡门艺术中心联合主办的《沙耆油画艺术研讨会》在上海和北京举行。</view>
+      <view class="txt-in line-height">1999年，大型画册《沙耆画集》由台湾卡门艺术中心出版发行。 </view>
+      <view class="txt-in line-height">2001年，《沙耆七十年作品回顾展》在中国美术馆、上海美术馆、台北历史博物馆展出。</view>
+      <view class="txt-in line-height">2004年，由浙江博物馆和浙江西湖美术馆举办的《生命之光-----沙耆90华诞艺术回顾展》在杭州西湖美术馆展出。 </view>
+      <view class="txt-in line-height">2005年2月15日，因肺部感染逝世于上海田林医院，享年91岁。</view>
+      <view class="txt-in line-height">2006年5月29日，著名油画大师沙耆先生纪念像揭幕暨骨灰安葬仪式在上海福寿园漱流苑举行。</view>
+
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

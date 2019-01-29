@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/infoPage/1",
+    "pages/infoPage/2",
+    "pages/infoPage/3",
+    "pages/infoPage/4_1",
+    "pages/infoPage/4_2",
+    "pages/infoPage/4_3",
+    "pages/infoPage/5",
+    "pages/infoPage/6",
+    "pages/infoPage/7",
+    "pages/infoPage/8",
+    "pages/infoPage/9",
+    "pages/infoPage/10",
+    "pages/infoPage/11"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "中国梵高——沙耆",
+    "navigationBarTextStyle": "black"
+  }
+}

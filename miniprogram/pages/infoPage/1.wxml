@@ -1,0 +1,23 @@
+<!--pages/infoPage/1.wxml-->
+<view class="container">
+  <view class="header">
+    <image src="../../images/header1.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="audio-container"><audio class="audio-control" src="{{audio1}}" controls name="前言" author="沙耆" poster="../../images/logo_fit.png"></audio></view>
+    <view class="body-container">
+      <view class="txt-in line-height">沙耆早年曾是刘海粟和徐悲鸿的学生，也曾在林风眠主持的国立艺术院有过短暂的学习。1937年，他负笈比利时学画，一去就是十年。正是在那里，他的作品曾和毕加索等人联袂展出。他把东方的豁达襟怀和悲悯的同情心灌注到委拉斯开兹和戈雅式的技巧当中，这种做法不仅使他较早地加入了探索中国美术出路的先行者行列，而且也为他在布鲁塞尔的LePetite  Galerie的几次画展中赢得了荣耀，为中西融合的美术之路写下了难得的一章。</view>
+      <view class="txt-in line-height">遗憾的是，这些闪光的篇章已长期被人遗忘。</view>
+
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+
+      <view class="txt-in line-height">我们看到，这些作品是一些辉煌的色彩交响,而它的配器则是印象主义、野兽主义，表现主义甚至抽象主义。总之，不论他采用什么手段,都似乎在用色彩来激动人心。尤其令人惊讶的是，尽管他往往缺乏称心如意的工具,往往缺乏想急于使用的颜料。然而他那粗陋的指挥棒却像沾濡了神的恩典,简单的几笔也会骤然化作眩人眼目的形象。因此在画出色彩的震撼力上，几乎没有几个中国的油画家能和他相比。不过他却从来没有摆出创新者的姿态，更无意引起新闻界的注意。事实上，他几乎已不再指望人们看他的画了，就像塞尚和凡·高一様，他要画下去只是因为他不能不画。</view>
+      <view class="txt-right line-height">——中国美术学院教授、博士生导师  范景中</view>
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

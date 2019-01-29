@@ -1,0 +1,34 @@
+<!--pages/infoPage/10.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header10.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="txt-in line-height">“在这次个人美展中，有水彩画《鸽子》、《虎》、《芦苇》，这些作品上的线条使人唤起一种崇高的印象，用笔如神，令人想起中国古代佛教美术的影响。”“《买花车》是一幅五光十色的有价值的印象派的作品，实为佛拉芒画派的阿卡叔尔（Ar Carasl）和爱顿贝菲德（Etanges Baifar），实可与大画家勃朗乔（Boulan Zer）和巴斯天媲美。”——比利时《布鲁塞尔晚报》</view>
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+      <view class="txt-in line-height">“沙耆十分热爱自然，他每次都能准确地抓住大自然富有特色的形态。我们也可以通过那些静物看出沙耆的才能，在绘画方面，他热情和谨慎、粗糙和精细都融入其中；在色彩方面，他将明亮和空灵融于其中，这一切使得沙耆的作品成为那些为丰富世界艺术遗产而进行的表现。”——艺术评论家史蒂凡( Stephane Rey)1941年和1945年沙耆画展序言</view>
+      <view class="txt-in line-height">“如果说，红色的造型运用可能找到艺术史的依据，那么，几十年里用红色来落款题写自己的姓名的画家，古今中外可能只有沙耆。这就是沙耆，他的艺术与生命就象一个凝聚了火与光的星球，曾经被历史的云层所遮蔽，现在，他已闪耀在中国美术的广阔星空中。” ——美术观察者范迪安</view>
+      <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
+      <view class="txt-in line-height">“这是一位几乎被人们遗忘的画家，然而，这又是一位将永远留在我们的美术史上、并激发我们去对艺术的意义不断思考的画家。”——中央美院教授、原中国油画协会主席詹建军</view>
+      <view class="txt-in line-height">“如果在过去的100年里，中国曾经有过富于个性特色的艺术家的话，沙耆应当之无愧的一个。”“沙耆的艺术是生命遭遇挫折时的自然流溢，他的绘画是‘不能不为’，‘有所不能自已’的产物，因而具有‘常行于所当行，常止于不可不止’的独特情貌。这显然是可慕不可学……沙耆是以自己的生命遭遇浇灌艺术之树的人”。——艺术理论家水中天</view>
+      <view class="txt-in line-height">“他拉近了中国油画与西方油画的距离，他是中国油画史上的一块里程碑。”——美术评论家邹平祥教授</view>
+      <view class="txt-in line-height">“他的油画就是放在世界任何著名的博物馆也绝不会逊色，他的作品与梵高、塞尚等西方油画大师相提并论。”——中央美院教授冯法祀</view>
+      <view class="txt-in line-height">“看了沙耆的画展，我很高兴，作为一个宁波人，作为同乡，为沙耆而感到骄傲。”——油画家全山石</view>
+      <view class="txt-in line-height">“我们中国油画的先驱中又发现了一位大师，为20世纪中国油画发展的成就又添光彩。”——中国美术馆馆长杨力舟</view>
+      <view class="txt-in line-height">“对沙耆来说，艺术是他生命不可分割的一部分，只要生命不息，艺术劳动就不会停止。他作画没有任何功利目的，不为名，不图利，仅仅是为了表达内心的感情。”——美术理论家、国画家邵大箴</view>
+      <view class="txt-in line-height">“他画的都是极平常.，极普通的农村景色，但在他的作品面前，我们不会无动于衷，而会被它引到画面的深处，引入他的创造的境界之中。”——武汉市湖北大学美术系郑林</view>
+      <view class="txt-in line-height">“不幸这个阶段却成了一个漫长的、在伤痛中博斗的乐章，持续了他整个人生数十年的中段，是在极反常的情况下留下艺术生命的记录。……他被放到了远离追逐名利的圈子之外的地方，反而使他排除了外界的干扰，可以从容於艺术天地之中。……孤寂、清贫、简朴的生活反而成全了这位艺术之子的沉潜追求，获得了艺术上最难得的一种自由，即纯真之心的自由。”——艺术理论家、中央美院教授钟涵先生</view>
+      <view class="txt-in line-height">更有许多专家称颂沙耆为“中国的梵高”“世界的沙耆”“二十世纪中国美术界不可替代的代表画家!”“中国现代油画史上一颗璀璨的彗星。”</view>
+      <view class="txt-in line-height">沙耆，一个纯粹的画家，一个艺术的殉道者。他把自己的全部生命，都献给了他所热爱的绘画艺术，为后人留下了一座取之不竭的艺术“富矿”。</view>
+      <view class="img3-con"><image src="{{img3}}" class="img3"></image></view>
+
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>

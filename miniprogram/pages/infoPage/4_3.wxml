@@ -1,0 +1,25 @@
+<!--pages/infoPage/4_3.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header4_3.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+      <view class="txt-in line-height">沙天行，1937年出生于鄞县沙村。1946年被母亲从鄞县沙村接到苏北淮阴，进淮安革命子弟小学就读。国共内战爆发后，幼年的他随学校北撤，从苏北一路步行走到山东。</view>
+      <view class="txt-in line-height">1947年年初，在党组织的关怀和精心安排下，他从山东解放区出发，由海上通过层层封锁线，历经艰难险阻，回到故乡鄞县沙村与父亲团聚。这是他第一次见到父亲，当时，他正好十岁。</view>
+      <view class="txt-in line-height">1956年，沙天行从上海中学毕业后，考取哈尔滨军事工程学院。1962年毕业分配到昆明军区。1969年复员回上海，在上海拖拉机齿轮厂当过工人、车间主任、厂党总支副书记。1980年调上海市人防办公室。1992年调上海浦利房地产发展有限公司任常务副总经理。1997年退休。现主要精力用于对父亲沙耆先生艺术成就的发掘、研究和资料整理工作。</view>
+      <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
+      <view class="txt-in line-height">沙耆与沙孟海同族。沙孟海曾对沙耆之子沙天行说：“我们两家是在清道光年间两兄弟分开的。你家是老三（泰贵房），我家是老四（竹房）。所以，我与你父亲不是亲兄弟，但比亲兄弟还亲。”</view>
+      <view class="txt-in line-height">在《沙孟海全集》的书信卷中，可以读到沙孟海给沙天行的24封信札，从中可以知道沙孟海所说的“比亲兄弟还亲”。沙耆蛰居家乡后，沙孟海一直为沙耆的生活、起居操心，为沙耆的画展做具体筹划工作，仔细到画展的请柬分发、人员的邀请等。在《沙孟海年表》中有这样的记录：（沙孟海）主持沙耆画展之筹备工作。是年（1983年）5月，沙耆画展由浙江省博物馆、浙江美术学院、中国美协浙江分会主办，在杭州浙江文化会堂举行。</view>
+      <view class="img3-con"><image src="{{img3}}" class="img3"></image></view>
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>
+

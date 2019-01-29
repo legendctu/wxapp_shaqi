@@ -1,0 +1,38 @@
+<!--pages/infoPage/7.wxml-->
+
+<view class="container">
+  <view class="header">
+    <image src="../../images/header7.jpg"></image>
+  </view>
+
+  <view class="body">
+    <view class="body-container">
+      <view class="txt-in line-height">十年异乡漂泊带给他荣誉与盛赞的同时，巨大光环下的阴影也无情地吞噬着他的生活。1946年，沙耆抱病黯然回国。从此，国际画坛上陨落了一颗冉冉升起的新星，而千里之外的故国东隅却不经意多了位痴迷画画的“疯子”。</view>
+      <view class="txt-in line-height">1946年10月，33岁的沙耆因精神疾病再度发作，在中国驻比利时使馆的安排下，乘坐桑对号邮轮从比利时回到上海。</view>
+      <view class="txt-in line-height">沙耆在笔记中写出了他急切回国的原因和心情：“忽闻中华已解放，初闻涕泪满衣裳。却看妻子愁何在，漫卷诗书喜欲狂。白日放歌须纵酒，青春作伴好还乡。即从比国回故乡，便上浙江做省长。”</view>
+      <view class="txt-in line-height">沙耆回国时，除了带回几大箱数百幅画作，身无分文。他最迫切的愿望是尽快在上海举办一次盛大的个展，以向祖国亲人汇报自己在海外十年所取得的成就。其画展广告当时已见诸报端。不幸的是内战烽烟又起，他的这一希望未能如愿。而带回来的几大箱画作，只好寄放在沙孟海先生家中。</view>
+      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+      <view class="txt-in line-height">回到家乡，发现妻子早已带着从未谋面的儿子奔赴抗日前线，父亲也己于三年前病逝，家中只有老母亲一人，沙耆无法面对这家破人亡的现实，本来就不健全的精神更加崩溃了。</view>
+      <view class="txt-in line-height">此时，徐悲鸿先生已是北平艺专的校长，得知沙耆归国，便去信聘请他为教授，这个职位，徐悲鸿一直为他保留了3年之久。</view>
+      <view class="txt-in line-height">从沙耆留下的资料和手稿中发现，沙耆是接受了徐悲鸿的邀请，但因精神病患严重终未能成行。</view>
+      <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
+      <view class="txt-in line-height">从此，沙耆蛰居鄞县沙村老家，几乎与艺术界失去了一切联系。由他的老母亲照料。母亲去世后，大姐夫一家将他接到了童村养病。</view>
+      <view class="img3-con"><image src="{{img3}}" class="img3"></image></view>
+      <view class="txt-in line-height">1954年和1964年，在沙文汉、史永的安排下，沙耆先后住进浙江省精神病院和南京神经精神病防治医院接受治疗。</view>
+      <view class="txt-in line-height">这一时期的沙耆，并没有像坊间传说的那样疯疯癫癫流落街头，一根稻草绳系一件破棉袄。更没有象人们传说中的那样生活无着。</view>
+      <view class="txt-in line-height">1952年，比利时艺术代表团访问北京，一位画家向周恩来总理称赞沙耆的艺术成就，周恩来不知道沙耆这个人，就问徐悲鸿先生，徐悲鸿说沙耆是他的学生，现在浙江农村，身患精神病。周恩来得知沙耆的经历和在欧洲的影响力，遂通知中央统战部并转浙江省统战部，每月拨给沙耆生活津贴40元。沙孟海先生曾经说：“在旧社会这样一个有毛病的人，是没有人理睬的。沙耆有今天，全是靠英明的党。”</view>
+      <view class="txt-in line-height">这一时期，沙孟海、沙文汉、史永兄弟3人，成了沙耆事实上的监护人。</view>
+      <view class="txt-in line-height">虽然沙耆的病时好时坏，但他爱干净，平时总是西装革履、戴领带，嘴里咬个烟斗，打扮得很绅士，根本看不出他是个精神病患者。</view>
+      <view class="txt-in line-height">现存的沙耆水墨画，大多为上世纪50年代到70年代的作品，可见这几十年里他手中的笔一天也没有停止过。行走在乡间，与农民在一起，只要有地方可画可写，不管是墙壁、门板、报纸、杂志、信纸、笔记本等，他都画上写上。</view>
+      <view class="txt-in line-height">他为人天真，颇受村民喜爱。他画画速度很快，邻居家孩子在洗澡，他拿笔在旁边勾画，孩子洗完澡，画也完成了。他以“一个疯子画家”的绘画语言，记录下了周边发生的一切，以《耕田》《插秧》《放牛》《钓鱼》《担水》《乘凉》《磨米粉》等大量的乡村生活为题材，创作了数以千计的作品，为后人留下了一笔丰厚的文化遗产。田野上耕耘的老农，嗷嗷待哺的婴儿，沙村周遭的山山水水，无不纳入其画，他的画笔中流露着挥之不去的乡愁。</view>
+      <view class="img4-con"><image src="{{img4}}" class="img4"></image></view>
+      <view class="txt-in line-height">沙耆曾画了一张沙村全景画，就坐在村子对面的山上画，老人和村里的孩子围在旁边看，眼瞅着沙村的一幢幢房子在沙耆笔下出现，众人惊叹不已。</view>
+      <view class="txt-in line-height">他曾在故居二楼房间的板壁上画了11幅裸女像。画中的女性富有青春活力，以坐、卧、跪、站等不同姿势呈现。这些裸女像，后来大部分被台湾画商收藏。</view>
+      <view class="img5-con"><image src="{{img5}}" class="img5"></image></view>
+    </view>
+  </view>
+
+  <view class="footer">
+    <image src="../../images/footer.jpg"></image>
+  </view>
+</view>
