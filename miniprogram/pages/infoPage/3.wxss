@@ -3,6 +3,6 @@
 @import "bgimg.wxss";
 
 .header{
-  height: 350rpx;
+  height: 300rpx;
   width: 632rpx;
 }
