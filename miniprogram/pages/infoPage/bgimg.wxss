@@ -40,9 +40,10 @@ page {
 }
 
 .footer{
+  position: relative;
   height: 55rpx;
 }
-.footer image{
+.scroll-bottom{
   height: 55rpx;
   width: 750rpx;
 }
@@ -65,7 +66,7 @@ page {
   position: absolute;
   left: 0;
   right: 0;
-  top: 350rpx;
+  bottom: 10rpx;
   margin: auto;
   width: 50rpx;
   height: 50rpx;
@@ -75,9 +76,7 @@ page {
   opacity: 0;
 }
 
+/*音频*/
 .audio-container{
   text-align:center;
-}
-.audio-control{
-
 }

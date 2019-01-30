@@ -8,7 +8,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    scrollOpenAni: ''
+    scrollOpenAni: '',
+    audioInfo: []
   },
 
   /*
@@ -19,13 +20,24 @@ Page({
     this.setData({
       scrollOpenAni: this.scrollOpenAni.export()
     })
+    console.log(this.audioCtx);
+    this.audioCtx && this.audioCtx.play()
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.cloud.getTempFileURL({
+      fileList: ['cloud://s-d314c0.732d-s-d314c0/images/1_1.jpg','cloud://s-d314c0.732d-s-d314c0/audio/1.mp3'],
+      success: res => {
+        this.setData({
+          audioInfo: res.fileList
+        })
+        this.audioCtx = wx.createAudioContext('audio')
+      },
+      fail: console.error
+    })
   },
 
   /**
