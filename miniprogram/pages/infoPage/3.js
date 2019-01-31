@@ -83,6 +83,10 @@ Page({
    */
   onHide: function () {
     this.audioCtx && this.audioCtx.stop();
+    this.setData({
+      audioStatus: 0,
+      audioBtnSrc: '../../images/play.png'
+    });
   },
 
   /**
@@ -90,6 +94,10 @@ Page({
    */
   onUnload: function () {
     this.audioCtx && this.audioCtx.stop();
+    this.setData({
+      audioStatus: 0,
+      audioBtnSrc: '../../images/play.png'
+    });
   },
 
   /**
