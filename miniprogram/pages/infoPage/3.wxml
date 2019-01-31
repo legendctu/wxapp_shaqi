@@ -1,9 +1,7 @@
 <!--pages/infoPage/3.wxml-->
 <view class="body">
   <image class="header" src="../../images/header3.png"></image>
-  <view class="audio-container">
-    <audio id="audio" src="{{audioInfo[1].tempFileURL}}" controls name="前言" author="沙耆" poster="../../images/logo_fit.png"></audio>
-  </view>
+  <image class="audio-btn {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
   <view class="body-scroll" animation="{{scrollOpenAni}}">
     <view id="bodyContainer" class="body-container">
       <view class="txt-in line-height">1914年3月3日，出生于浙江省鄞县塘溪镇沙村。取名引年，又名贤菖，字吉留</view>

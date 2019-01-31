@@ -60,16 +60,18 @@ page {
 .line-height{
   line-height: 200%;
 }
+.none{
+  display: none;
+}
 
 /*动画*/
 .ani-tip {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 10rpx;
   margin: auto;
-  width: 50rpx;
-  height: 50rpx;
+  width: 225rpx;
+  height: 225rpx;
   z-index:1;
 }
 .ani-tip.hide{
@@ -79,4 +81,11 @@ page {
 /*音频*/
 .audio-container{
   text-align:center;
+}
+.audio-btn{
+  width:61rpx;
+  height:61rpx;
+  position:absolute;
+  left:374rpx;
+  top:48rpx;
 }
