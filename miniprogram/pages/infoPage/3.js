@@ -38,7 +38,7 @@ Page({
     this.setData({
       scrollOpenAni: this.scrollOpenAni.export()
     });
-    if (this.data.audioStatus == 0){
+    if (this.data.audioStatus == 0 && this.data.audioReady){
       this.setData({
         audioStatus: 1,
         audioBtnSrc: '../../images/pause.png'

@@ -11,6 +11,12 @@
   width: 750rpx;
 }
 
+.audio-btn-pos{
+  position:absolute;
+  left:378rpx;
+  top:48rpx;
+}
+
 .img1-con{
   height:481rpx;
   margin:50rpx 0 20rpx 0;
