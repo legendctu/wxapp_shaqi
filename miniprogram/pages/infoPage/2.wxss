@@ -4,17 +4,8 @@
 
 
 .header{
-  height: 347rpx;
-}
-.header image{
-  height: 347rpx;
-  width: 750rpx;
-}
-
-.audio-btn-pos{
-  position:absolute;
-  left:378rpx;
-  top:48rpx;
+  height: 350rpx;
+  width: 632rpx;
 }
 
 .img1-con{

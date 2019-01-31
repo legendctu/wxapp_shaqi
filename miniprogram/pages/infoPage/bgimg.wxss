@@ -85,4 +85,7 @@ page {
 .audio-btn{
   width:61rpx;
   height:61rpx;
+  position:absolute;
+  left:374rpx;
+  top:48rpx;
 }

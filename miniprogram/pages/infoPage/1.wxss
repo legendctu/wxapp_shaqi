@@ -3,11 +3,8 @@
 
 
 .header{
-  height: 347rpx;
-}
-.header image{
-  height: 347rpx;
-  width: 750rpx;
+  height: 327rpx;
+  width: 632rpx;
 }
 
 .img1-con{

@@ -6,9 +6,3 @@
   height: 300rpx;
   width: 632rpx;
 }
-
-.audio-btn-pos{
-  position:absolute;
-  left:374rpx;
-  top:48rpx;
-}
