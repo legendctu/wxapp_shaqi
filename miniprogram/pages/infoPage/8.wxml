@@ -1,12 +1,9 @@
 <!--pages/infoPage/8.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header8.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header8.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">1983年，沙耆的命运又一次迎来了转折，他的画展在杭州、上海和北京举行。沉寂了三十多年之后，沙耆重新回到了公众的视野中。</view>
       <view class="txt-in line-height">沙耆从海外带来的几大箱画作，当时寄存在沙孟海家，1964年，沙孟海整理出70多件油画，和徐悲鸿送给沙耆的《双猫图》，以沙耆母亲的名义捐赠给浙江省文管会，后转藏浙江省博物馆。</view>
       <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
@@ -18,8 +15,10 @@
 
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

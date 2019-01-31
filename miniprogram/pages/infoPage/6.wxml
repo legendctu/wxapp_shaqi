@@ -1,12 +1,9 @@
 <!--pages/infoPage/6.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header6.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header6.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">旅欧十年，沙耆作品中留下了对表现主义、野兽派等西方近现代艺术流派鲜明而独特的印记。他的作品，曾与毕加索等西方艺术大师共同展出，也曾举办多次个人展览，成为欧洲一流画家。</view>
       <view class="txt-in line-height">在比利时皇家美术学院学习期间，沙耆得到了巴斯俭院长的亲手栽培。</view>
       <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
@@ -26,8 +23,10 @@
 
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

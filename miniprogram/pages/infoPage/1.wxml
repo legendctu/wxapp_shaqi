@@ -1,9 +1,9 @@
 <!--pages/infoPage/1.wxml-->
 <view class="body">
-  <image class="header" src="../../images/header1.png"></image>
-  <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
   <view class="body-scroll" animation="{{scrollOpenAni}}">
     <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header1.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">沙耆早年曾是刘海粟和徐悲鸿的学生，也曾在林风眠主持的国立艺术院有过短暂的学习。1937年，他负笈比利时学画，一去就是十年。正是在那里，他的作品曾和毕加索等人联袂展出。他把东方的豁达襟怀和悲悯的同情心灌注到委拉斯开兹和戈雅式的技巧当中，这种做法不仅使他较早地加入了探索中国美术出路的先行者行列，而且也为他在布鲁塞尔的LePetite  Galerie的几次画展中赢得了荣耀，为中西融合的美术之路写下了难得的一章。</view>
       <view class="txt-in line-height">遗憾的是，这些闪光的篇章已长期被人遗忘。</view>
 
@@ -15,8 +15,8 @@
   </view>
 </view>
 
-<view class="footer"> 
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
   <!-- 动画开始按钮 -->
-  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
-  <image class="scroll-bottom" src="../../images/footer.jpg"></image>
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

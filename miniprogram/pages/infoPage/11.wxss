@@ -2,26 +2,24 @@
 
 @import "bgimg.wxss";
 
-
 .header{
-  height: 320rpx;
-}
-.header image{
-  height: 320rpx;
-  width: 750rpx;
+  height: 268rpx;
+  width: 632rpx;
 }
 
 .img1-con{
-  height:17588rpx;
+  height:16601rpx;
   margin:30rpx 0 20rpx 0;
 }
 .img1{
-  width:606rpx;
-  height:17588rpx;
+  width:572rpx;
+  height:16601rpx;
   margin:0 auto;
   display:block;
 }
 
+/*
 view.body-container{
   width:606rpx;
 }
+*/

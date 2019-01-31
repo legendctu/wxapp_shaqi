@@ -2,13 +2,9 @@
 
 @import "bgimg.wxss";
 
-
 .header{
-  height: 360rpx;
-}
-.header image{
-  height: 360rpx;
-  width: 750rpx;
+  height: 334rpx;
+  width: 632rpx;
 }
 
 .img1-con{

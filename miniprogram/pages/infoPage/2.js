@@ -10,6 +10,7 @@ Page({
   data: {
     scrollOpenAni: '',
     audioReady: false,
+    srcReady: false,
     audioBtnSrc: '../../images/play.png',
     audioStatus: 0
   },
@@ -37,10 +38,11 @@ Page({
     this.setData({
       scrollOpenAni: this.scrollOpenAni.export()
     });
-    if (this.data.audioStatus == 0 && this.data.audioReady) {
+    if (this.data.audioStatus == 0) {
       this.setData({
         audioStatus: 1,
-        audioBtnSrc: '../../images/pause.png'
+        audioBtnSrc: '../../images/pause.png',
+        audioReady: true
       });
       this.audioCtx && this.audioCtx.play();
     }
@@ -54,13 +56,11 @@ Page({
       fileList: ['cloud://s-d314c0.732d-s-d314c0/images/2_1.jpg', 'cloud://s-d314c0.732d-s-d314c0/audio/2.mp3'],
       success: res => {
         this.setData({
-          img1: res['fileList'][0]['tempFileURL']
+          img1: res['fileList'][0]['tempFileURL'],
+          srcReady: true
         });
         this.audioCtx = wx.createInnerAudioContext();
         this.audioCtx.src = res['fileList'][1]['tempFileURL'];
-        this.setData({
-          audioReady: true
-        });
       },
       fail: console.error
     });

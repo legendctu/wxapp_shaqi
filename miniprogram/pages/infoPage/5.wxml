@@ -1,12 +1,9 @@
 <!--pages/infoPage/5.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header5.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header5.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">沙耆，受擅长中国画的父亲影响，自幼喜爱画画，并显露出出色的绘画天赋。少年时曾入学上海昌明艺术专科学校。1932年就读于刘海粟创办的上海美术专科学校。</view>
       <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
       <view class="txt-in line-height">年轻的沙耆深受族兄沙文汉的影响，信仰共产主义，是一位“为民族而艺术”的热血青年。“九一八”事变后，参加示威游行，还随进步青年学生队伍赴南京请愿，以“危害民国罪”被判刑一年。其父几乎倾家荡产，才以“托病交保释放，监外就医”的方式使他逃脱囹圄之灾。随后，转入林风眠先生所执教的杭州西湖艺专学习。翌年，父子应沙孟海之邀同赴南京，沙耆由沙孟海推荐至徐悲鸿处学画，并改名为耆，成为中央大学艺术系旁听生。</view>
@@ -15,8 +12,10 @@
 
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

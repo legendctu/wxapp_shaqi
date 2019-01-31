@@ -1,9 +1,9 @@
 <!--pages/infoPage/2.wxml-->
 <view class="body">
-  <image class="header" src="../../images/header2.png"></image>
-  <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
   <view class="body-scroll" animation="{{scrollOpenAni}}">
     <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header2.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">这是一位几乎被人们遗忘的画家，然而，这又是一位将永远留在中国美术史上，并激发人们去对艺术的意义不断思考的画家。
 沙耆，原名沙引年，1914年出生于鄞县沙村，1932年入上海美专，因参加抗日救亡等进步活动被捕，经家人交保后出狱，转入杭州艺专学习，并更名沙耆。1934年经其族兄沙孟海介绍，到南京中央大学艺术系拜徐悲鸿为师，以旁听生资格学习绘画。</view>
       <view class="txt-in line-height">1937年，经徐悲鸿介绍，沙耆到比利时布鲁塞尔的皇家美术学院学习，两年后以优异成绩毕业，并两次获得优秀美术金质奖，与毕加索等著名画家共同举办展览，一度成为当地颇具影响的画家。</view>
@@ -18,8 +18,8 @@
   </view>
 </view>
 
-<view class="footer"> 
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
   <!-- 动画开始按钮 -->
-  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
-  <image class="scroll-bottom" src="../../images/footer.jpg"></image>
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

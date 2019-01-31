@@ -10,12 +10,13 @@ Page({
   data: {
     scrollOpenAni: '',
     audioReady: false,
+    srcReady: false,
     audioBtnSrc: '../../images/play.png',
     audioStatus: 0
   },
 
-  onAudioBtnControl(){
-    if (this.data.audioStatus == 0){
+  onAudioBtnControl() {
+    if (this.data.audioStatus == 0) {
       this.setData({
         audioStatus: 1,
         audioBtnSrc: '../../images/pause.png'
@@ -29,7 +30,6 @@ Page({
       this.audioCtx && this.audioCtx.pause()
     }
   },
-
   /*
     @func onStartScrollOpen
     @desc 点击开始滚动动画
@@ -38,10 +38,11 @@ Page({
     this.setData({
       scrollOpenAni: this.scrollOpenAni.export()
     });
-    if (this.data.audioStatus == 0 && this.data.audioReady){
+    if (this.data.audioStatus == 0) {
       this.setData({
         audioStatus: 1,
-        audioBtnSrc: '../../images/pause.png'
+        audioBtnSrc: '../../images/pause.png',
+        audioReady: true
       });
       this.audioCtx && this.audioCtx.play();
     }
@@ -57,7 +58,7 @@ Page({
         this.audioCtx = wx.createInnerAudioContext();
         this.audioCtx.src = res['fileList'][0]['tempFileURL'];
         this.setData({
-          audioReady: true
+          srcReady: true
         });
       },
       fail: console.error

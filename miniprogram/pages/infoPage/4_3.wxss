@@ -4,17 +4,8 @@
 
 
 .header{
-  height: 375rpx;
-}
-.header image{
-  height: 375rpx;
-  width: 750rpx;
-}
-
-.body {
-  width:750rpx;
-  display:block;
-  min-height: 2000rpx;
+  height: 350rpx;
+  width: 632rpx;
 }
 
 .img1-con{

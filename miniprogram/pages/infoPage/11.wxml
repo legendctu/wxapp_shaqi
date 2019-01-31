@@ -1,17 +1,17 @@
 <!--pages/infoPage/11.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header11.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header11.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="img1-con pb-50"><image src="{{img1}}" class="img1"></image></view>
 
     </view>
   </view>
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+</view>
+
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

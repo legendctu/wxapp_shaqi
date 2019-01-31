@@ -1,13 +1,9 @@
 <!--pages/infoPage/4_2.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header4_2.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
-      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header4_2.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">孙佩钧是一位有主见、能干、很独立的知识女性，写字画画、弹琴唱歌都很擅长。她在上中学时，就因参加学生会组织的学潮与军警搏斗受伤而被父亲勒令退学。休学期间，经姑妈牵线与沙耆相识。当时，沙耆已在南京中央大学艺术科跟徐悲鸿先生学画。两年后，1936年4月，他们在杭州西湖饭店举行婚礼。</view>
       <view class="img2-con"><image src="{{img2}}" class="img2"></image></view>
       <view class="txt-in line-height">婚后不到半月，沙耆即返南京复学，孙佩钧则留在华丰厂职工子弟小学当老师。从与沙耆结婚到沙耆于1936年12月出国，8个月时间聚少离多，共同生活在一起的时间不足4个月。离别时，孙佩钧只有19岁，他们唯一的孩子还在腹中。</view>
@@ -19,9 +15,11 @@
 
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>
 

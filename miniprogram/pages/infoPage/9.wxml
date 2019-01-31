@@ -1,12 +1,9 @@
 <!--pages/infoPage/9.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header9.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header9.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">30多年前的东钱湖韩岭村，一个老人独自坐在钱湖清晨的漫天霞光里，一笔一笔地勾勒这里的天光云影、一草一木。他是村里公认的“怪人”，却少有人知道，他就是后来被誉为“中国梵高”的沙耆。</view>
       <view class="txt-in line-height">1982年2月，在儿子沙天行与沙孟海等亲属的安排下，沙耆由沙村移居东钱湖韩岭，到学生余毅家暂住。生活费、寄养费由儿子沙天行按月支付。</view>
       <view class="txt-in line-height">余毅是沙耆1981年收的唯一的一位学生。沙耆在余毅家住了将近16年，在这个家里，沙耆一边教余毅学画，一边在余家的悉心照料下生活。</view>
@@ -32,8 +29,10 @@
 
     </view>
   </view>
-  
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+</view>
+
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

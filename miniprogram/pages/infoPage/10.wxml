@@ -1,12 +1,9 @@
 <!--pages/infoPage/10.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header10.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header10.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">“在这次个人美展中，有水彩画《鸽子》、《虎》、《芦苇》，这些作品上的线条使人唤起一种崇高的印象，用笔如神，令人想起中国古代佛教美术的影响。”“《买花车》是一幅五光十色的有价值的印象派的作品，实为佛拉芒画派的阿卡叔尔（Ar Carasl）和爱顿贝菲德（Etanges Baifar），实可与大画家勃朗乔（Boulan Zer）和巴斯天媲美。”——比利时《布鲁塞尔晚报》</view>
       <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
       <view class="txt-in line-height">“沙耆十分热爱自然，他每次都能准确地抓住大自然富有特色的形态。我们也可以通过那些静物看出沙耆的才能，在绘画方面，他热情和谨慎、粗糙和精细都融入其中；在色彩方面，他将明亮和空灵融于其中，这一切使得沙耆的作品成为那些为丰富世界艺术遗产而进行的表现。”——艺术评论家史蒂凡( Stephane Rey)1941年和1945年沙耆画展序言</view>
@@ -27,8 +24,10 @@
 
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>

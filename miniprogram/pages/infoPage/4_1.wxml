@@ -1,13 +1,9 @@
 <!--pages/infoPage/4_1.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header4_1.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
-      <view class="img1-con"><image src="{{img1}}" class="img1"></image></view>
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header4_1.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">沙松寿（1860-1940），鄞县沙村人，字仔甫，与妻杜氏育有二女一子。</view>
       <view class="txt-in line-height">沙松寿年轻时跟从沙可庄（沙孟海之父）学中医外科，后到上海行医。因擅长绘画书法，被介绍到美华利钟表行即现在的亨达利钟表画广告，不久担任美华利钟表青岛分店的广告部主任。 </view>
       
@@ -23,9 +19,11 @@
 
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>
 

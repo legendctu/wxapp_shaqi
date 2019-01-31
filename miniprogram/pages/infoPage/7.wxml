@@ -1,12 +1,9 @@
 <!--pages/infoPage/7.wxml-->
-
-<view class="container">
-  <view class="header">
-    <image src="../../images/header7.jpg"></image>
-  </view>
-
-  <view class="body">
-    <view class="body-container">
+<view class="body">
+  <view class="body-scroll" animation="{{scrollOpenAni}}">
+    <view id="bodyContainer" class="body-container">
+      <image class="header" src="../../images/header7.png"></image>
+      <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
       <view class="txt-in line-height">十年异乡漂泊带给他荣誉与盛赞的同时，巨大光环下的阴影也无情地吞噬着他的生活。1946年，沙耆抱病黯然回国。从此，国际画坛上陨落了一颗冉冉升起的新星，而千里之外的故国东隅却不经意多了位痴迷画画的“疯子”。</view>
       <view class="txt-in line-height">1946年10月，33岁的沙耆因精神疾病再度发作，在中国驻比利时使馆的安排下，乘坐桑对号邮轮从比利时回到上海。</view>
       <view class="txt-in line-height">沙耆在笔记中写出了他急切回国的原因和心情：“忽闻中华已解放，初闻涕泪满衣裳。却看妻子愁何在，漫卷诗书喜欲狂。白日放歌须纵酒，青春作伴好还乡。即从比国回故乡，便上浙江做省长。”</view>
@@ -31,8 +28,10 @@
       <view class="img5-con"><image src="{{img5}}" class="img5"></image></view>
     </view>
   </view>
+</view>
 
-  <view class="footer">
-    <image src="../../images/footer.jpg"></image>
-  </view>
+<view class="footer {{scrollOpenAni ? '' : 'noOffset'}}"> 
+  <!-- 动画开始按钮 -->
+  <image class="ani-tip {{scrollOpenAni ? 'hide' : ''}} {{srcReady ? '' : 'none'}}" src="/images/ani-tip.png" bindtap="onStartScrollOpen"></image>
+  <image class="scroll-bottom" src="../../images/footer.png"></image>
 </view>
