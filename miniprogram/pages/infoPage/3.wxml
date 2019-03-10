@@ -4,13 +4,13 @@
     <view id="bodyContainer" class="body-container">
       <image class="header" src="../../images/header3.png"></image>
       <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
-      <view class="txt-in line-height">1914年3月3日，出生于浙江省鄞县塘溪镇沙村。取名引年，又名贤菖，字吉留</view>
+      <view class="txt-in line-height">1914年3月3日，出生于浙江省鄞县塘溪镇沙村。取名引年，又名贤菖，字吉留。</view>
       <view class="txt-in line-height">1920年，入本村饲堂读私塾，师从祥元先生。   </view>
-      <view class="txt-in line-height">1925年， 随父至上海，求读于宁波同乡会小学。 </view>
+      <view class="txt-in line-height">1925年，随父至上海，求读于宁波同乡会小学。 </view>
       <view class="txt-in line-height">1926年，因病休学返乡。</view>
       <view class="txt-in line-height">1927年，父亲将旧屋翻新，沙孟海题名《藜斋》。 </view>
       <view class="txt-in line-height">1929年，随家迁居杭州。时沙孟海任职省政府，送沙耆入中学，后又介绍沙耆进上海昌明艺术专科学校。 </view>
-      <view class="txt-in line-height">1931年，“九.一八”事变后，沙耆随上海进步学生队伍赴南京请愿，参加示威游行。</view>
+      <view class="txt-in line-height">1931年，“九一八”事变后，沙耆随上海进步学生队伍赴南京请愿，参加示威游行。</view>
       <view class="txt-in line-height">1932年，与沙孟海五弟沙季同就读于上海美术专科学校。是年六月沙耆因政冶原因被逮捕，并判刑一年。</view>
       <view class="txt-in line-height">1933年，托病保释出狱后，转入杭州西湖艺专求学。 </view>
       <view class="txt-in line-height">1934年，应沙孟海之邀赴南京，沙孟海为其取艺名耆，推荐从徐悲鸿学画，被接纳为中央大学艺术科旁听生。 </view>
@@ -18,13 +18,13 @@
       <view class="txt-in line-height">1937年2月，在比京布鲁塞尔设籍，并入学比利时国立皇家艺术学院，师从该院院长巴斯蒂昂（A.Bstien）教授。5月，儿子出生，取名天行。</view>
       <view class="txt-in line-height">1938年，继续在皇家艺术学院学习，并在巴黎朱丽安美术学院（Academie Julian de Paris）研究。 </view>
       <view class="txt-in line-height">1939年7月，从皇家美院毕业，其油画、雕塑、素描皆获首奖，并获得“优秀美术金质奖章”。 </view>
-      <view class="txt-in line-height">1940年春，与毕加索等西欧名家一起参加“建国百周年纪念馆（Atomium）联展”。6月，在杜松道画廊（Galerie de la Toison d'Or）与匈亚利画家德立克联展。其后多次在>佩底特（Petite Galerie）美术馆等地举办个人画展。 </view>
+      <view class="txt-in line-height">1940年春，与毕加索等西欧名家一起参加“建国百周年纪念馆（Atomium）联展”。6月，在杜松道画廊（Galerie de la Toison d'Or）与匈亚利画家德立克联展。其后多次在佩底特（Petite Galerie）美术馆等地举办个人画展。 </view>
       <view class="txt-in line-height">1941年1月，在毕底格力地（Peteti Galerie）美术馆举办个展。4月，参加列日市“欧洲艺术中心”（Ars-Europae）第三届联展。 </view>
       <view class="txt-in line-height">1942年1月，在建国五十周年博物馆（Musee Cinquantennaire）举办画展。1月底，在文艺复兴画廊（Galerie La Renaissance）办画展。3月，又在毕底格力地举办个展，作
       品《吹笛女》被王太后伊利莎白收藏。</view> 
       <view class="txt-in line-height">1943年1月，在杜松道画廊（Galerie de la Toison d'Or）办个展。是年父亲在家乡病故。</view>
       <view class="txt-in line-height">1944年9月，在摄政画廊（Galerie Le Regent）办个展。</view>
-      <view class="txt-in line-height">1945年2月，参加由比国美术院院长特卡尼（Decat）主办的一次盛大展览，展品中有巴黎罗佛美术馆所藏己故比国大画家及日本旅欧近代著名画家等作品。5月，在杜松道画>廊办个展。10月10日，在毕底格力地美术馆举办个展。所绘《雄狮》以旅比侨民名义献赠祖国。年底，赴英、荷等国旅行作画。</view> 
+      <view class="txt-in line-height">1945年2月，参加由比国美术院院长特卡尼（Decat）主办的一次盛大展览，展品中有巴黎罗佛美术馆所藏己故比国大画家及日本旅欧近代著名画家等作品。5月，在杜松道画廊办个展。10月，在毕底格力地美术馆举办个展。所绘《雄狮》以旅比侨民名义献赠祖国。年底，赴英、荷等国旅行作画。</view> 
       <view class="txt-in line-height">1946年10月，因病回国。</view>
       <view class="txt-in line-height">1947年，定居鄞县沙村老家，由其母照料养病。是年初，儿子在党组织安排下，由山东解放区被送到沙村，父子团聚。</view>
       <view class="txt-in line-height">1949年，家乡解放。12月，与妻子协议离婚。</view>

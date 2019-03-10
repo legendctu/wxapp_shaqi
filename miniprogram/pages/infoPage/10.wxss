@@ -30,12 +30,12 @@
 }
 
 .img3-con{
-  height:754rpx;
+  height:2537rpx;
   margin:30rpx 0 20rpx 0;
 }
 .img3{
   width:570rpx;
-  height:754rpx;
+  height:2537rpx;
   margin:0 auto;
   display:block;
 }

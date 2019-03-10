@@ -19,12 +19,12 @@
 }
 
 .img2-con{
-  height:241rpx;
+  height:400rpx;
   margin:20rpx 0 20rpx 0;
 }
 .img2{
   width:568rpx;
-  height:241rpx;
+  height:400rpx;
   margin:0 auto;
   display:block;
 }

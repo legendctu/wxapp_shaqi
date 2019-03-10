@@ -4,7 +4,7 @@
     <view id="bodyContainer" class="body-container">
       <image class="header" src="../../images/header9.png"></image>
       <image class="audio-btn audio-btn-pos {{audioReady ? '' : 'none'}}" id="audio-btn" src="{{audioBtnSrc}}"  bindtap="onAudioBtnControl"></image>
-      <view class="txt-in line-height">30多年前的东钱湖韩岭村，一个老人独自坐在钱湖清晨的漫天霞光里，一笔一笔地勾勒这里的天光云影、一草一木。他是村里公认的“怪人”，却少有人知道，他就是后来被誉为“中国梵高”的沙耆。</view>
+      <view class="txt-in line-height">30多年前的东钱湖韩岭村，一个老人独自坐在钱湖清晨的漫天霞光里，一笔一笔地勾勒这里的天光云影、一草一木。他是村里公认的“怪人”，却少有人知道，他就是后来被誉为“中国凡·高”的沙耆。</view>
       <view class="txt-in line-height">1982年2月，在儿子沙天行与沙孟海等亲属的安排下，沙耆由沙村移居东钱湖韩岭，到学生余毅家暂住。生活费、寄养费由儿子沙天行按月支付。</view>
       <view class="txt-in line-height">余毅是沙耆1981年收的唯一的一位学生。沙耆在余毅家住了将近16年，在这个家里，沙耆一边教余毅学画，一边在余家的悉心照料下生活。</view>
       <view class="txt-in line-height">在韩岭，沙耆找到了内心久违的平静。对这个古色古香、有着千年历史的村庄情有独钟。在他眼里，韩岭处处是景，处处都有他创作的题材，即使是光秃秃的岩石、抑或是一片枯燥的空地，他都能用色彩去丰富画面。这个时期，沙耆的生活状态很不错，心情舒畅，他的创作也进入一个崭新的高峰期。</view>
